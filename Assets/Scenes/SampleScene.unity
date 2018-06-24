@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1526980366}
-  m_IndirectSpecularColor: {r: 0.18386692, g: 0.2290305, b: 0.30321732, a: 1}
+  m_IndirectSpecularColor: {r: 0.18386677, g: 0.22903018, b: 0.30321658, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,6 +113,21 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &224117985 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100070, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
+  m_PrefabInternal: {fileID: 802937075}
+--- !u!114 &224117986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224117985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91952b847fb1649a79e63ae0adab9163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,35 +254,43 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 413b13e8fb79e4812830af57e9c94542, type: 2}
     - target: {fileID: 400076, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90.00556
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 400076, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.76759434
+      value: -54.999985
       objectReference: {fileID: 0}
     - target: {fileID: 400250, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.5363457e-15
+      value: -4.4702655e-15
       objectReference: {fileID: 0}
     - target: {fileID: 400250, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.99999
+      value: 89.99998
       objectReference: {fileID: 0}
     - target: {fileID: 400260, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 2.2046564
+      value: 85.000015
       objectReference: {fileID: 0}
     - target: {fileID: 400254, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 9.310037e-15
+      value: 1.5578572e-14
       objectReference: {fileID: 0}
     - target: {fileID: 400268, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.5363457e-15
+      value: -4.4702655e-15
       objectReference: {fileID: 0}
     - target: {fileID: 400268, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 89.99999
+      value: 89.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400068, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.00000014969973
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74fa64a7852d744f0b5dd62d3f3a3982, type: 3}
